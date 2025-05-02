@@ -1,0 +1,97 @@
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(255,255,255,25%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(255,255,255,50%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/3.png);
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/1.png);
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical:hover
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/4.png);
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical:hover
+{
+    height:9px;width:8px;
+    border-image:url(:/images/a/2.png);
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar:horizontal{
+margin:0px 16px 0px 16px;
+background-color:rgba(0,0,0,0);
+border:none;
+height:8px;
+}
+
+QScrollBar::handle:horizontal{
+background-color:rgba(255,255,255,25%);
+border-radius:4px;
+height:8px;
+}
+
+QScrollBar::handle:horizontal:hover{
+background-color:rgba(255,255,255,50%);
+}
+
+QScrollBar::add-line:horizontal{
+subcontrol-position: right;
+subcontrol-origin:margin;
+background-color:rgba(0,0,0,0);
+border:1px solid rgba(0,0,0,0);
+height:8px;
+width:6px;
+}
+QScrollBar::sub-line:horizontal{
+subcontrol-position: left;
+subcontrol-origin:margin;
+background-color:rgba(0,0,0,0);
+border:1px solid rgba(0,0,0,0);
+height:12px;
+width:6px;
+}
+QScrollBar::left-arrow:horizontal{
+border-image:url(:/commonImg/Resources/image/common/arrowLeft.png);
+width:6px;
+height:12px;
+}
+QScrollBar::right-arrow:horizontal{
+border-image:url(:/commonImg/Resources/image/common/arrowRight.png);
+width:6px;
+height:12px;
+}
+QScrollBar::sub-page:horizontal,QScrollBar::add-page:horizontal{
+background-color:rgba(0,0,0,0);
+}

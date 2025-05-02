@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>BcEditor.ico</file>
+        <file>BcEditor.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>xltstyle.qss</file>
+    </qresource>
+</RCC>
