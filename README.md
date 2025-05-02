@@ -1,1 +1,2 @@
-# TextEditor-Code
+When writing compilers, I always use the default Notepad in Windows to open the scripting language I created on the spot, which I find a bit unsightly. Suddenly, I had a whim to write a simple editor myself
+(Using VSCode to open it again would make the interface too complicated, and it takes some time to open and close it.) So, I used C++ & Qt to write a simple text editor with a relatively clean interface. Currently, the basic functions have been completed. I'm sharing it here for learning and exchange.If you have any technical questions, you can contact me by email: liuxiang18886@hotmail.com(Project maintained by Liu Xiang).
